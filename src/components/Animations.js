@@ -26,6 +26,7 @@ const Animations = () => {
         getAnimation().play();
     };
 
+
     const pause = () => {
         getAnimation().pause();
     };
@@ -39,20 +40,22 @@ const Animations = () => {
     return (
         <div className='main-container'>
             <h1>Cat and Dog Animation</h1>
+            <h2> Current State: {playState}</h2>
             <button className='button' onClick={play}>Play</button>
             <button className='button' onClick={pause}>Pause</button>
             <button className='button' onClick={cancel}>Reset</button>
 
             <div className='target' >
                 <div className='animation' >
+
                     <div ref={ref} className='moving-container'>
                         <img className='dogImage' src={dog} alt="" />
                         <img className='catImage' src={cat} alt="" />
                     </div>
                 </div>
             </div>
-            <hr/>
-            <h1>Made by : <a href="https://github.com/developer-junaid" target='_blank'> Junaid Qureshi</a>  </h1><br/><br/>
+            <hr />
+            <h1>Made by : <a href="https://github.com/developer-junaid" target='_blank'> Junaid Qureshi</a>  </h1><br /><br />
         </div>
     )
 }

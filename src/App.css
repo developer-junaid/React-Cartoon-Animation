@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 
-.main-container h1 {
+.main-container h1,h2 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
@@ -31,7 +31,7 @@ body {
 .animation {
   position: relative;
   background-color: rgba(0, 255, 255, 0.842);
-  height: 70%;
+  height: 60%;
   width: 90%;
   border-radius: 50px;
   border-bottom: 10px solid rgb(124, 108, 108);
@@ -40,6 +40,13 @@ body {
 .moving-container {
   position: absolute;
   bottom: 0;
+}
+
+.cloudImage {
+  position: absolute;
+  height: 120px;
+  right: 20px;
+  top: 0px;
 }
 
 .catImage {
