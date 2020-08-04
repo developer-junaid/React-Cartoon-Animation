@@ -55,7 +55,7 @@ const Animations = () => {
                 </div>
             </div>
             <hr />
-            <h1>Made by : <a href="https://github.com/developer-junaid" target='_blank'> Junaid Qureshi</a>  </h1><br /><br />
+            <h1>Made by : <a href="https://github.com/developer-junaid" rel="noopener noreferrer" target='_blank'> Junaid Qureshi</a>  </h1><br /><br />
         </div>
     )
 }
