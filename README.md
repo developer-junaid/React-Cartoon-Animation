@@ -6,7 +6,7 @@
 
 
 # HOMEPAGE
-<img src=''/>
+<img src='./animation.png'/>
 
 
 http://my-react-animation.surge.sh/
